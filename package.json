@@ -1,0 +1,36 @@
+{
+  "name": "xcdl-preview",
+  "version": "0.0.0",
+  "description": "Web site for the xcdl web; (preview for now, to be renamed as xcdl)",
+  "main": "",
+  "scripts": {
+    "generate-top-commons-init": "bash -x node_modules/@xpack/npm-packages-helper/maintenance-scripts/generate-top-commons.sh --init",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xpack/xcdl-preview.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Liviu Ionescu",
+    "email": "ilg@livius.net",
+    "url": "https://github.com/ilg-ul"
+  },
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xpack/xcdl-preview/issues"
+  },
+  "homepage": "https://xpack.github.io/xcdl-preview/",
+  "devDependencies": {
+    "json": "^11.0.0",
+    "liquidjs": "^10.19.0"
+  },
+  "bundleDependencies": [],
+  "engines": {
+    "node": " >=18.0.0"
+  },
+  "config": {
+    "isWebDeployOnly": "true"
+  }
+}
