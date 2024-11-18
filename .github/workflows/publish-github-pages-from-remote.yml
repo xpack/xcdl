@@ -60,6 +60,8 @@ jobs:
         run: npm --prefix website install
 
       - name: Build the Docusaurus site
+        env:
+          DOCUSAURUS_BASEURL: '/xcdl-preview/'
         run: npm --prefix website run build
 
       - name: Setup Pages
