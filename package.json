@@ -22,19 +22,18 @@
     "url": "https://github.com/xpack/xcdl-preview/issues"
   },
   "homepage": "https://xpack.github.io/xcdl-preview/",
+  "dependencies": {},
   "devDependencies": {
     "json": "^11.0.0",
     "liquidjs": "^10.18.0",
     "del-cli": "^6.0.0"
   },
   "bundleDependencies": [],
-  "engines": {
-    "node": " >=18.0.0"
-  },
   "config": {
     "isWebDeployOnly": "true",
     "websiteRepo": "xpack/xcdl-cli-ts"
   },
-  "dependencies": {},
-  "bundledDependencies": []
+  "engines": {
+    "node": " >=18.0.0"
+  }
 }
