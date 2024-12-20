@@ -1,14 +1,18 @@
 {
-  "name": "xcdl-preview",
+  "name": "xcdl",
   "version": "0.0.0",
   "description": "Web site for the xcdl web; (preview for now, to be renamed as xcdl)",
   "main": "",
   "scripts": {
+    "npm-outdated": "npm outdated",
+    "npm-install": "npm install",
+    "npm-link-helper": "npm link @xpack/npm-packages-helper",
+    "deep-clean": "del-cli node_modules package-lock.json",
     "generate-top-commons": "bash node_modules/@xpack/npm-packages-helper/maintenance-scripts/generate-top-commons.sh"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xpack/xcdl-preview.git"
+    "url": "git+https://github.com/xpack/xcdl.git"
   },
   "keywords": [],
   "author": {
@@ -19,9 +23,9 @@
   "contributors": [],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xpack/xcdl-preview/issues"
+    "url": "https://github.com/xpack/xcdl/issues"
   },
-  "homepage": "https://xpack.github.io/xcdl-preview/",
+  "homepage": "https://xpack.github.io/xcdl/",
   "dependencies": {},
   "devDependencies": {
     "json": "^11.0.0",
