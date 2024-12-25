@@ -1,13 +1,12 @@
 {
   "name": "xcdl",
   "version": "0.0.0",
-  "description": "Web site for the xcdl web; (preview for now, to be renamed as xcdl)",
+  "description": "Website for the xcdl project",
   "main": "",
   "scripts": {
     "npm-outdated": "npm outdated",
     "npm-install": "npm install",
     "npm-link-helper": "npm link @xpack/npm-packages-helper",
-    "deep-clean": "del-cli node_modules package-lock.json",
     "generate-top-commons": "bash node_modules/@xpack/npm-packages-helper/maintenance-scripts/generate-top-commons.sh"
   },
   "repository": {
