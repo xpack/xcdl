@@ -6,7 +6,7 @@
   "scripts": {
     "npm-outdated": "npm outdated",
     "npm-install": "npm install",
-    "npm-link-helper": "npm link @xpack/npm-packages-helper",
+    "npm-link-helpers": "npm link @xpack/npm-packages-helper",
     "generate-top-commons": "bash node_modules/@xpack/npm-packages-helper/maintenance-scripts/generate-top-commons.sh"
   },
   "repository": {
