@@ -1,3 +1,3 @@
-# xcdl-preview
+# xcdl
 
-Web site for the xcdl web; (preview for now, to be renamed as xcdl)
+Website for the xcdl project.
