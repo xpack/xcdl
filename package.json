@@ -34,7 +34,8 @@
   "bundleDependencies": [],
   "config": {
     "isWebDeployOnly": "true",
-    "websiteRepo": "xpack/xcdl-cli-ts"
+    "websiteRepo": "xpack/xcdl-cli-ts",
+    "websiteRepoBranch": "website"
   },
   "engines": {
     "node": " >=18.0.0"
